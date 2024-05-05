@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/Outfit-VariableFont_wght.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Outfit';
+  font-size: 18px;
+  padding: 20px;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.central-card {
+  height: 590px;
+  width: 350px;
+  border-radius: 20px;
+  margin: 0 auto 15px;
+  padding: 23px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.header-card {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 20px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.header-card:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.text-card {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-top: 15px;
+  line-height: 1.5;
+  color: hsl(215, 51%, 70%);
+}
+
+.values-card {
+  font-size: 0.6rem;
+  margin-top: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  height: 1rem;
+}
+
+.eth-values {
+  margin-right: 120px;
+  color: hsl(178, 100%, 50%)
+}
+
+.days-left-values {
+  color: hsl(215, 51%, 70%);
+}
+
+hr {
+  margin: 22px 0;
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.creator-data {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.image-creator {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.text-creator {
+  color: hsl(215, 51%, 70%);
+}
+
+.name-creator {
+  color: hsl(0, 0%, 100%);
+}
+
+.name-creator:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%)
+}
+
+.image-card {
+  height: 310px;
+  position: relative;
+  cursor: pointer;
+}
+
+.image-principal {
+  width: 100%;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.cover-layout {
+  width: 100%;
+  height: 310px;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(178, 100%, 50%);
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.cover-layout:hover {
+  opacity: 0.5;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  color: hsl(215, 51%, 70%);
+}
+  
+.attribution a {
+  color: hsl(178, 100%, 50%);
+  text-decoration: none;
+}
